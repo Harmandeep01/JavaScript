@@ -5,23 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM Manipulation</title>
+
 </head>
 <body>
-    <script>
-        var h1 = document.createComment('h1')
-        h1.innerText = "what is your name?"
-        
-        var input = document.createElement('input')
-        input.setAttribute('type', 'text')
-
-        document.body.innerText = " ";
-        document.body.appendChild(h1);
-        document.body.appendChild(input);
-
-        input.addEventListener('change', function(){
-            console.log(h1.innerText = input.value)
-            input.value = " ";
-        })
-    </script>
+        <h1>h</h1>
+        <input type="text">
+    
+    
+        <script src="script.js"></script>
 </body>
 </html>
